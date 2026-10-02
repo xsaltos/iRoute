@@ -1,0 +1,6 @@
+@iRoute_HostAddress = http://localhost:5179
+
+GET {{iRoute_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
