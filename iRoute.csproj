@@ -14,6 +14,96 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\com.chrome.devtools.json" />
+    <Content Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\package.json" />
+    <Content Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\_metadata.json" />
+    <Content Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\package.json" />
+    <Content Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\_metadata.json" />
+    <Content Include="frontendIRoute\.vscode\extensions.json" />
+    <Content Include="frontendIRoute\.vscode\launch.json" />
+    <Content Include="frontendIRoute\.vscode\tasks.json" />
+    <Content Include="frontendIRoute\angular.json" />
+    <Content Include="frontendIRoute\package-lock.json" />
+    <Content Include="frontendIRoute\package.json" />
+    <Content Include="frontendIRoute\public\favicon.ico" />
+    <Content Include="frontendIRoute\src\app\app.html" />
+    <Content Include="frontendIRoute\src\app\pages\carga-csv\carga-csv.html" />
+    <Content Include="frontendIRoute\src\app\pages\consulta-fechas\consulta-fechas.html" />
+    <Content Include="frontendIRoute\src\app\pages\errores\errores.html" />
+    <Content Include="frontendIRoute\src\app\pages\home\home.html" />
+    <Content Include="frontendIRoute\src\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\.tsbuildinfo" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\%40angular_common.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\%40angular_common_http.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\%40angular_core.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\%40angular_forms.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\%40angular_forms.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\%40angular_platform-browser.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\%40angular_router.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\%40angular_router.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\common-Cr6PjF-h.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\common-Cr6PjF-h.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\core-Dl1ZlCfZ.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\core-Dl1ZlCfZ.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\createObject-D3fkcyp3.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\createObject-D3fkcyp3.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\from-D1S1dMNA.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\from-D1S1dMNA.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\http-DdxXTt0S.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\http-DdxXTt0S.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\platform-browser-ClASOqkR.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\platform-browser-ClASOqkR.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\_xhr-chunk-C5kz1hRI.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps\_xhr-chunk-C5kz1hRI.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_common.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_common_http.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_core.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_forms.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_forms.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_platform-browser.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_platform-server_init.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_platform-server_init.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_router.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_ssr.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_ssr_node.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\%40angular_ssr_node.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\bundled-domino-1lz1wH_B.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\bundled-domino-1lz1wH_B.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\common-DDpEhNlW.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\common-DDpEhNlW.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\core-YAiL6VzY.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\core-YAiL6VzY.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\express.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\express.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\http-B4i8Co3n.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\http-B4i8Co3n.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\platform-browser-D6wfkoY-.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\platform-browser-D6wfkoY-.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\rolldown-runtime-B4iAMlE-.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\router-CtbVToL0.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\router-CtbVToL0.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\ssr-CU-DpC_s.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\ssr-CU-DpC_s.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\xhr2-BDl7dY5v.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\xhr2-BDl7dY5v.js.map" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\_xhr-chunk-D1VhyC1-.js" />
+    <None Include="frontendIRoute\.angular\cache\22.2.1\frontendIRoute\vite\deps_ssr\_xhr-chunk-D1VhyC1-.js.map" />
+    <None Include="frontendIRoute\.editorconfig" />
+    <None Include="frontendIRoute\.gitignore" />
+    <None Include="frontendIRoute\.prettierrc" />
+    <None Include="frontendIRoute\src\app\app.scss" />
+    <None Include="frontendIRoute\src\app\pages\carga-csv\carga-csv.scss" />
+    <None Include="frontendIRoute\src\app\pages\consulta-fechas\consulta-fechas.scss" />
+    <None Include="frontendIRoute\src\app\pages\errores\errores.scss" />
+    <None Include="frontendIRoute\src\app\pages\home\home.scss" />
+    <None Include="frontendIRoute\src\styles.scss" />
+    <None Include="iRoute.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.20" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.20" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.20">
@@ -24,12 +114,27 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="frontendIRoute\src\app\app.config.server.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\app.config.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\app.routes.server.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\app.routes.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\app.spec.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\app.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\pages\carga-csv\carga-csv.spec.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\pages\carga-csv\carga-csv.ts" />
     <TypeScriptCompile Include="frontendIRoute\src\app\pages\consulta-fechas\consulta-fechas.spec.ts" />
     <TypeScriptCompile Include="frontendIRoute\src\app\pages\consulta-fechas\consulta-fechas.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\pages\errores\errores.spec.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\pages\errores\errores.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\pages\home\home.spec.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\pages\home\home.ts" />
     <TypeScriptCompile Include="frontendIRoute\src\app\services\carga-csv.spec.ts" />
     <TypeScriptCompile Include="frontendIRoute\src\app\services\carga-csv.ts" />
     <TypeScriptCompile Include="frontendIRoute\src\app\services\consulta-fechas.spec.ts" />
     <TypeScriptCompile Include="frontendIRoute\src\app\services\consulta-fechas.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\main.server.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\main.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\server.ts" />
   </ItemGroup>
 
 </Project>
