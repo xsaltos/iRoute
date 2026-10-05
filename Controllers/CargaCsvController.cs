@@ -3,9 +3,12 @@ using iRoute.Data;
 using iRoute.DTO;
 using iRoute.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Text.Json;
 using System.Threading.Tasks;
 namespace iRoute.Controllers
@@ -55,22 +58,26 @@ namespace iRoute.Controllers
             return Ok();
         }
 
-        
-       
-    
-      
-        [HttpGet("consultarPorFecha")]
-        public async Task<IActionResult> ConsultarPorFecha(DateTime fecha)
+
+
+
+
+        [HttpGet("consultar/{fecha}")]
+        public async Task<IActionResult> Consultar(DateTime fecha)
         {
-            var recordSet = await _context.ConsultaCommerce();
-            return Ok(recordSet);
+            var resultado = await _context.Commerce
+            .FromSqlInterpolated(
+            $"EXEC consulta_commerce @fecha_consulta = {fecha}")
+            .ToListAsync();
+
+            return Ok(resultado);
         }
-       /* [HttpGet("consultarErrores")]
-        public async Task<IActionResult> ConsultarErrores()
-        {
-            var recordSet = await _context.ConsultaQuarantine();
-            return Ok(recordSet);
-        }*/
-      
+        /* [HttpGet("consultarErrores")]
+         public async Task<IActionResult> ConsultarErrores()
+         {
+             var recordSet = await _context.ConsultaQuarantine();
+             return Ok(recordSet);
+         }*/
+
     }
 }

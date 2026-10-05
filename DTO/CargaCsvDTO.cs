@@ -14,4 +14,14 @@
     {
         public List<CargaCsvDTO> Data { get; set; }
     }
+    public class ConsultaFechaDTO
+    {
+
+        public string pc_nomcomred { get; set; }
+
+        public int pc_numdoc { get; set; }
+
+        public string pc_processdate { get; set; }
+
+    }
 }

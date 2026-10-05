@@ -23,4 +23,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <TypeScriptCompile Include="frontendIRoute\src\app\pages\consulta-fechas\consulta-fechas.spec.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\pages\consulta-fechas\consulta-fechas.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\services\carga-csv.spec.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\services\carga-csv.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\services\consulta-fechas.spec.ts" />
+    <TypeScriptCompile Include="frontendIRoute\src\app\services\consulta-fechas.ts" />
+  </ItemGroup>
+
 </Project>
