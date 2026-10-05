@@ -1,0 +1,48 @@
+<div class="contenedor">
+
+  <h2>Carga de Archivo CSV</h2>
+
+  <input type="file"
+         accept=".csv"
+         (change)="seleccionarArchivo($event)">
+
+  @if (datos.length > 0) {
+
+  <div class="resumen">
+    <strong>Total registros:</strong> {{ datos.length }}
+  </div>
+
+  <h3>Previsualización</h3>
+
+  <table>
+
+    <thead>
+      <tr>
+        @for (columna of columnas; track columna) {
+        <th>{{ columna }}</th>
+        }
+      </tr>
+    </thead>
+
+    <tbody>
+      @for (fila of datos; track $index) {
+      <tr>
+        @for (columna of columnas; track columna) {
+        <td>{{ fila[columna] }}</td>
+        }
+      </tr>
+      }
+    </tbody>
+
+  </table>
+
+  <br>
+
+  <button type="button"
+          (click)="enviarArchivo()">
+    Enviar al Backend
+  </button>
+
+  }
+
+</div>

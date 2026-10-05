@@ -1,0 +1,30 @@
+<h2>Consulta por Fecha</h2>
+
+<div>
+  <input type="date"
+         [(ngModel)]="fecha">
+
+  <button (click)="consultar()">
+    Consultar
+  </button>
+</div>
+
+<hr>
+
+<table *ngIf="registros.length > 0" border="1">
+  <thead>
+    <tr>
+      <th>Número</th>
+      <th>Descripción</th>
+      <th>Fecha</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let item of registros">
+      <td>{{ item.pcNomcomred }}</td>
+      <td>{{ item.pcNumdoc }}</td>
+      <td>{{ item.pcProcessdate }}</td>
+    </tr>
+  </tbody>
+</table>
