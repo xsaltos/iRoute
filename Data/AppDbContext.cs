@@ -37,7 +37,7 @@ public partial class AppDbContext : DbContext
     public async Task<List<Commerce>> ConsultaCommerce()
     {
         return await Commerce
-        .FromSqlRaw("EXEC ConsultaCommerce")
+        .FromSqlRaw("EXEC Consulta_Commerce")
         .ToListAsync();
     }
 

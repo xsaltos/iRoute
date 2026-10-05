@@ -3,11 +3,11 @@
     public class CargaCsvDTO
     {
 
-            public string pcNomcomred { get; set; }
+            public string pc_nomcomred { get; set; }
 
-            public int pcnumdoc { get; set; }
+            public int pc_numdoc { get; set; }
 
-            public string pcprocessdate { get; set; }
+            public string pc_processdate { get; set; }
        
     }
     public class CsvRequest

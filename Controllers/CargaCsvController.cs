@@ -1,9 +1,12 @@
 ﻿
 using iRoute.Data;
 using iRoute.DTO;
+using iRoute.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections;
 using System.Collections.Generic;
+using System.Text.Json;
 using System.Threading.Tasks;
 namespace iRoute.Controllers
 {
@@ -18,18 +21,42 @@ namespace iRoute.Controllers
         }
 
         [HttpPost("cargaArchivo")]
-        public async Task<IActionResult> cargaArchivo([FromBody] CsvRequest requets)
+        public async Task<IActionResult> cargaArchivo(IFormFile archivo)
         {
-           if (requets == null) return BadRequest("Archivo vacio");
-            foreach (var fila in requets.Data)
-            {
+            if (archivo == null || archivo.Length == 0)
+                return BadRequest("Archivo vacío");
 
-                await _context.InsertaCommerce(fila.pcnumdoc ,fila.pcNomcomred, fila.pcprocessdate);
-     
+            var lista = new List<CargaCsvDTO>();
+
+            using var reader = new StreamReader(archivo.OpenReadStream());
+
+            // Omitir cabecera
+            await reader.ReadLineAsync();
+
+            while (!reader.EndOfStream)
+            {
+                var linea = await reader.ReadLineAsync();
+                var datos = linea.Split(';');
+
+                lista.Add(new CargaCsvDTO
+                {
+                    pc_nomcomred = datos[0],
+                    pc_numdoc = int.Parse(datos[1]),
+                    pc_processdate = datos[2]
+                });
             }
-            return Ok(new { mensaje = "Archivo cargdo correctamente", totalFilas = requets.Data.Count });
+
+            string json = JsonSerializer.Serialize(lista);
+
+            await _context.Database.ExecuteSqlInterpolatedAsync(
+            $"EXEC sp_CargarComercios {json}"
+            );
+
+            return Ok();
+        }
+
         
-          }
+       
     
       
         [HttpGet("consultarPorFecha")]
